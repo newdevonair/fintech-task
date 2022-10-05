@@ -6,13 +6,13 @@ return [
     'db' => [
         'adapters' => [
             'mainDb' => [
-                'charset' => 'utf8mb4',
-                'database' => 'fintech',
+                'charset' => '',
+                'database' => '',
                 'driver' => 'PDO_Mysql',
-                'hostname' => 'fintech-db',
-                'port' => '3306',
-                'username' => 'fintech',
-                'password' => 'fintech',
+                'hostname' => '',
+                'port' => '',
+                'username' => '',
+                'password' => '',
             ],
         ],
     ],
