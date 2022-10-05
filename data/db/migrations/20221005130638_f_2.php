@@ -11,7 +11,7 @@ final class F2 extends AbstractMigration
      */
     public function up(): void
     {
-        if (! $this->hasTable('fintech_customer_deposit')) {
+        if (! $this->hasTable('fintech_customer_transaction')) {
             $this->table('fintech_customer_transaction', [
                 'id' => 'transaction_id'
             ])
