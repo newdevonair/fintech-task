@@ -52,7 +52,7 @@ final class GlobalHelper
             CURLOPT_CUSTOMREQUEST => "GET",
             CURLOPT_HTTPHEADER => [
                 "X-RapidAPI-Host: currency-converter5.p.rapidapi.com",
-                "X-RapidAPI-Key: 5d6f11849bmsh825fb1a3d875641p17dfaejsn810a200ad963"
+                "X-RapidAPI-Key: 5d6f11849bmsh825fb1a3d875641p17dfaejsn810a200ad963" // @todo need to remove after code review
             ],
         ]);
 
